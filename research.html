@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <!-- CSS  Bootstrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+
+</head>
+
+<body>
+    <!-- header part starts here -->
+    <section class="sec-1">
+        <div class="header-item-link">
+            <div class="logo-top"><img src="./images/iitrlogo.webp" alt=""></div>
+
+
+        </div>
+        <div class="header-title">
+            <div class="header-title-item">
+                <h1>Applied Plasmonics & Photonics Lab <span style="color:#bb0c20 ;">(APP-Lab)</span></h1>
+            </div>
+            <div class="header-title-item">
+                <h2>Department of Physics,
+                    Indian Institute of Technology Roorkee, India</h2>
+            </div>
+        </div>
+
+    </section>
+    <div class="header-container">
+        <a href="./index.html" class="header-items">Home </a>
+        <a href="./research.html" class="header-items">Research Interests</a>
+        <a href="./publication.html" class="header-items">Publications</a>
+        <a href="#" class="header-items">Team</a>
+        <a href="#" class="header-items">Gallery</a>
+        <a href="#" class="header-items">Contact</a>
+    </div>
+    <!-- header part ends here -->
+    <div class="research-intro">
+
+        <div class="research-items">
+            <h1>Research Interests</h1>
+        </div>
+
+
+        <div class="research-items">
+            <p>We are working on the sensing /biosensing applications of plasmonic/nanoplasmonic and plasmon enhanced
+                optical phenomena. Here are some topic-wise explanations <span id="showmore">
+        </div>
+
+    </div>
+    <!-- Sliders section start -->
+
+    <div class="video-container  ">
+        <div class="row slider">
+
+            <div class="video-items">
+                <div class="video-thumbnail"><a href="#"><img src="./images/substrate-medium.webp" /></a></div>
+            </div>
+            <div class="video-items">
+                <div class="video-thumbnail"><a href="#"><img src="./images/substrate-medium.webp" /></a></div>
+            </div>
+            <div class="video-items">
+                <div class="video-thumbnail"><a href="#"><img src="./images/substrate-medium.webp" /></a></div>
+            </div>
+            <div class="video-items">
+                <div class="video-thumbnail"><a href="#"><img src="./images/substrate-medium.webp" /></a></div>
+            </div>
+            <div class="video-items">
+                <div class="video-thumbnail"><a href="#"><img src="./images/substrate-medium.webp" /></a></div>
+            </div>
+            <div class="video-items">
+                <div class="video-thumbnail"><a href="#"><img src="./images/substrate-medium.webp" /></a></div>
+            </div>
+            <div class="video-items">
+                <div class="video-thumbnail"><a href="#"><img src="./images/substrate-medium.webp" /></a></div>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- slick slider -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script type="text/javascript">
+
+        $('.slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

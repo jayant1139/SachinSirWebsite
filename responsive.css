@@ -1,0 +1,128 @@
+
+@media screen and (min-width:768px) {
+    .logo-top img{
+        width: auto;
+        /* left: 10px;
+        top:5px; */
+    }
+    .sec-1{
+        height: 170px;
+    }
+    .header-item-link{
+        left:70px;
+        /* height: 28vh; */
+    }
+    .header-title .header-title-item h1{
+       font-size: 30px;
+       
+       
+       
+    }
+    .header-title .header-title-item h2{
+        font-size: 22px;
+       padding: 1px;
+    }
+        .header-container{
+           width: 100vw;
+           
+            /* margin: auto; */
+        justify-content: center;
+            /* margin-top: 34px; */
+        
+    
+        }
+        .header-items{
+            /* color: black; */
+           
+            /* border:2px solid #fff; */
+            /* text-decoration: none; */
+          
+            font-size: 18px;
+            margin:0px 40px 0px 10px;
+        }
+        .container-intro h1{
+            font-size: 28px;
+            /* margin:10px; */
+            margin: 25px;
+            padding: 5px;
+        }   
+    #showmore{
+        display: block;
+    }
+    #changetext{
+        display: none;
+    }
+    .container-intro .flex-row-container{
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 95%;
+        border: none;
+        margin: auto;
+        align-items: flex-start;
+    }
+    .flex-row-container .flex-row-items img{
+     width: 250px;
+     margin-right: 450px;
+    }
+    .flex-row-container .flex-row-items p{
+     margin:15px;
+        font-size: 16px;
+        width: 80%;
+    }
+    .carousel{
+        /* border: 1px solid green; */
+        width:55%;
+        height: auto;
+        /* height: 400px; */
+        
+    }
+    .carousel-item{
+        /* border: 1px inset #2980b9; */
+        border-radius: 4px;
+       height: 500px;
+    }
+ 
+   
+    .carousel-item ul li{
+        /* border:1px solid brown; */
+        width: 80%;
+        
+        margin:20px auto 5px auto;
+            
+        font-size: 17px;
+    }
+    .news-event-head{
+        margin-top:45px;
+        font-size: 28px;
+    }
+    .last-element-page{
+        font-size: 19px;
+        margin: 25px;
+        
+    }
+    /* footer responsiveness     */
+   
+    .flex-footer-items p{
+        font-size: 28px;
+        margin: 15px;
+    }
+    .flex-footer-items h6 {
+        
+        font-size: 20px;
+        
+        margin: 5px;
+    
+    }
+    .funders-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: no-wrap;
+    }
+    .funders-container img{
+        width:auto;
+        height: auto;
+        margin: 0px 40px 0px 40px;
+    }
+    
+}
