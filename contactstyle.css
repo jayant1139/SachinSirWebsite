@@ -13,36 +13,38 @@
     flex-direction: column;
     /* justify-content: flex-start; */
     align-items: flex-start;
-    margin: 20px;
+    margin: 15px;
+    margin-bottom: 60px;
     /* border: 2px solid black; */
-    width: 45%;
+    width:60%;
     /* padding: 5px; */
 }
 .contact-heading h1{
-   
-    padding: 5px;
-    font-size: 18px;
+   /* margin: 10px; */
+    /* padding: 5px; */
+    font-size: 12px;
     color: #bb0c20;
     font-weight: bold;
 }
 .contact-items p{
-    font-size: 12px;
-    margin: 6px;
+    font-size: 10px;
+    margin: 5px;
 }
 .contact-items h3{
- margin:5px;
-    padding: 5px;
-    font-size: 14px;
+ /* margin:5px; */
+    /* padding: 5px; */
+    font-size: 11px;
     color: #bb0c20;
     font-weight: bold;
 }
 
 .row-container{
     display: flex;
-    /* border:1px solid green; */
+    border:1px solid green;
     align-items: center;
     /* justify-content: center; */
     position: relative;
+    margin: 20px;
 }
 .mail-img{
 /* position: relative; */
@@ -55,35 +57,36 @@ align-items: center;
     box-shadow: 3px 2px 17px 0px rgba(21,21,21,0.85);
 -webkit-box-shadow: 3px 2px 17px 0px rgba(21,21,21,0.85);
 -moz-box-shadow: 3px 2px 17px 0px rgba(21,21,21,0.85);
-    margin: 10px;
-    /* width:200px; */
+    /* margin-right: 20px; */
+
+    width:220px;
     /* height: 250px; */
 }
 .mail-img img{
     /* position: absolute; */
-    width:200px;
+    width:160px;
   
     
 }
 .mail-me{
     display: inline-block;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
     /* text-align: center; */
     /* background: chartreuse; */
     /* width: 90%; */
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     
 }
 .mail-me a{
     background-color: #bb0c20;
     border-radius: 5px;
     text-align: center;
-    padding: 10px;
+    padding: 7px;
     margin:auto;
     /* margin-bottom: 25px; */
-    font-size: 14px;
+    font-size: 7px;
   color: #fff;
   font-weight: bold;
   text-decoration: none;
@@ -95,42 +98,111 @@ align-items: center;
 background: linear-gradient(45deg, rgb(255, 0, 0) 0%, rgba(253,29,29,1) 50%, rgba(233,0,56,1) 100%);
 }
 
+
 /* Responsivensss */
-@media screen and (min-width:768px) {
-    .row-container{
-        display: flex;
-     flex-direction: column;
-        align-items: center;
-        position: relative;
-    }
+
+@media screen and (max-width:767px) {
+   /* footer customise */
+.footer-part{
+    position: fixed;
+    bottom: 0;
+      
+  }
     .contact-container{
-        width: 100%;
+        width: 45%;
         /* justify-content: flex-end; */
-        align-items: center;
+        /* align-items: center; */
      
     }
-    .contact-items h3{
-        margin:20px;
-    }
+   
     .mail-me a{
-        font-size: 20px;
+        font-size: 12px;
        
         /* width:300px; */
     }
     .mail-img{
-        margin-bottom: 50px;
+        margin: 10px;
     }
     .mail-img img{
-    width:350px;
+    width:200px;
     }
     .contact-heading h1{
-        font-size: 30px;
+        font-size: 1px;
     }
     .contact-items h3{
-        font-size: 20px;
+        font-size: 12px;
     }
     .contact-items p{
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+   
+    .contact-container{
+        width: 48%;
+      
+     
+    }
+   
+    .mail-me a{
+        font-size: 14px;
+       
+        /* width:300px; */
+    }
+    .mail-img{
+        margin: 25px;
+        width:300px;
+    }
+    .mail-img img{
+    width:250px;
+    }
+    .contact-heading h1{
+        font-size: 22px;
+    }
+    .contact-items h3{
         font-size: 18px;
+    }
+    .contact-items p{
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+   
+    .contact-container{
+        width: 45%;
+      
+     
+    }
+   
+    .mail-me a{
+        font-size: 16px;
+       padding: 7px;
+       
+       /* border-radius: 8px; */
+        /* width:300px; */
+    }
+    .mail-img{
+        margin: 55px 55px 55px 75px;
+        width:320px;
+    }
+    .mail-img img{
+    width:300px;
+    }
+    .contact-heading h1{
+        font-size: 26px;
+        padding: 5px;
+    }
+    .contact-items h3{
+        font-size: 22px;
+        padding: 5px;
+    }
+    .contact-items p{
+        padding: 5px;
+        font-size: 16px;
     }
     
 }

@@ -1,47 +1,46 @@
 
-@media screen and (min-width:768px) {
+
+@media screen and (min-width:768px)  {
     .logo-top img{
-        width: auto;
-        /* left: 10px;
-        top:5px; */
+        width: 100px;
+        height: auto;
+        /* width: 120px; */
+      
     }
     .sec-1{
         height: 170px;
     }
-    .header-item-link{
-        left:70px;
-        /* height: 28vh; */
-    }
+    
+    .header-title{
+        
+        margin:auto;
+        
+        }
     .header-title .header-title-item h1{
-       font-size: 30px;
+       font-size: 22px;
+       padding: 2px;
        
        
        
     }
     .header-title .header-title-item h2{
-        font-size: 22px;
+        font-size: 16px;
        padding: 1px;
     }
-        .header-container{
-           width: 100vw;
-           
-            /* margin: auto; */
-        justify-content: center;
-            /* margin-top: 34px; */
-        
-    
-        }
+.header-container{
+    height: 40px;
+}
         .header-items{
             /* color: black; */
            
             /* border:2px solid #fff; */
             /* text-decoration: none; */
           
-            font-size: 18px;
-            margin:0px 40px 0px 10px;
+            font-size: 14px;
+            margin:0px 30px 0px 10px;
         }
         .container-intro h1{
-            font-size: 28px;
+            font-size: 20px;
             /* margin:10px; */
             margin: 25px;
             padding: 5px;
@@ -56,13 +55,136 @@
         flex-direction: row;
         justify-content: space-evenly;
         width: 95%;
+        border:1px solid blue;
+        border: none;
+        margin: auto;
+        align-items: flex-start;
+    }
+    .flex-row-container .flex-row-items img{
+     width: 190px;
+     margin-right: 450px;
+    }
+    .flex-row-container .flex-row-items p{
+     margin:0px 0px 0px 10px;
+        font-size: 14px;
+        width: 80%;
+    }
+    .carousel{
+        /* border: 1px solid green; */
+        width:55%;
+        height: auto;
+        /* height: 400px; */
+        
+    }
+    .carousel-item{
+        /* border: 1px inset #2980b9; */
+        border-radius: 4px;
+       height: 550px;
+    }
+ 
+   
+    .carousel-item ul li{
+        /* border:1px solid brown; */
+        width: 80%;
+        
+        margin:20px auto 5px auto;
+            
+        font-size: 14px;
+    }
+    .news-event-head{
+        margin-top:45px;
+        font-size: 20px;
+    }
+    .last-element-page{
+        font-size: 14px;
+        margin: 30px;
+        
+    }
+    /* footer responsiveness     */
+   
+    .flex-footer-items p{
+        font-size: 20px;
+        margin: 15px;
+    }
+    .flex-footer-items h6 {
+        
+        font-size: 16px;
+        
+        margin: 10px;
+    
+    }
+    .funders-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: no-wrap;
+    }
+    .funders-container img{
+        width:100px;
+        height: auto;
+        margin: 0px 20px 0px 20px;
+    }
+    
+}
+
+
+@media screen and (min-width:1024px)  {
+    .logo-top img{
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+        /* width: 120px; */
+        left: 250px;
+    }
+    .sec-1{
+        height: 170px;
+    }
+    
+    .header-title{
+        
+        margin:auto;
+        
+        }
+    .header-title .header-title-item h1{
+       font-size: 32px;
+       padding: 2px;
+       
+       
+       
+    }
+    .header-title .header-title-item h2{
+        font-size: 20px;
+       padding: 1px;
+        }
+        .header-container{
+            height: 50px;
+        }
+        .header-items{
+            /* color: black; */
+           
+            /* border:2px solid #fff; */
+            /* text-decoration: none; */
+          
+            font-size: 18px;
+            margin-right:50px;
+        }
+        .container-intro h1{
+            font-size: 26px;
+            /* margin:10px; */
+            margin: 25px;
+            padding: 5px;
+        }   
+    .container-intro .flex-row-container{
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 95%;
         border: none;
         margin: auto;
         align-items: flex-start;
     }
     .flex-row-container .flex-row-items img{
      width: 250px;
-     margin-right: 450px;
+     margin-right: 480px;
     }
     .flex-row-container .flex-row-items p{
      margin:15px;
@@ -79,7 +201,7 @@
     .carousel-item{
         /* border: 1px inset #2980b9; */
         border-radius: 4px;
-       height: 500px;
+       height: 550px;
     }
  
    
@@ -89,28 +211,28 @@
         
         margin:20px auto 5px auto;
             
-        font-size: 17px;
+        font-size: 16px;
     }
     .news-event-head{
         margin-top:45px;
-        font-size: 28px;
+        font-size: 26px;
     }
     .last-element-page{
-        font-size: 19px;
-        margin: 25px;
+        font-size: 16px;
+        margin: 30px;
         
     }
     /* footer responsiveness     */
    
     .flex-footer-items p{
-        font-size: 28px;
+        font-size: 20px;
         margin: 15px;
     }
     .flex-footer-items h6 {
         
-        font-size: 20px;
+        font-size: 16px;
         
-        margin: 5px;
+        margin: 10px;
     
     }
     .funders-container{
@@ -122,7 +244,8 @@
     .funders-container img{
         width:auto;
         height: auto;
-        margin: 0px 40px 0px 40px;
+        margin: 0px 20px 0px 20px;
     }
     
 }
+
