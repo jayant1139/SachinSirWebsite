@@ -249,9 +249,3 @@
     
 }
 
- @media screen and (min-height:991px) and (orientation:portrait) {
-    .footer-part{
-        position: absolute;
-        bottom: 0;
-    }
-} 
