@@ -1,0 +1,27 @@
+.title{
+    width: 25vw;
+    text-align: center;
+    border:1px solid brown;
+}
+.grp-leader{
+    border:2px solid black;
+    display: block;
+    width: 25vw;
+    text-align: center;
+    
+}
+.grp-img {
+    display: inline-block;
+ border:1px solid green;
+    border-radius: 50%;
+}
+.grp-leader .grp-details .grp-desc a{
+    /* background-color: brown; */
+    text-decoration: none;
+}
+.grp-space-btw{
+    background-color: rgba(238, 232, 170, 0.349);
+    display: flex;
+    justify-content: space-evenly;
+}
+
