@@ -278,7 +278,10 @@ height:320px;
 }
 
 .carousel{
-    width:25vw;
+    border:1px solid blue;
+    width:25vw !important;
+    height: 250px !important;
+   margin-left: 10px;
 }
 .row{
     display: flex;
