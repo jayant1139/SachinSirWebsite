@@ -172,14 +172,14 @@ margin: auto;
     -moz-box-shadow: 0px 0px 12px 0px rgba(69,58,58,0.74);
 
 }
-.carousel-inner{
+.index-carousel{
     margin:auto;
     /* margin:20px 0px 20px 0px; */
     /* justify-content: center; */
     /* width:50vw; */
     /* border:2px solid green; */
 }
-.carousel-item{
+.index-carousel-item{
 /* border:2px solid blue; */
 background-color:#EDEEEE;
  /* background-color:#eaeaea; */
@@ -190,7 +190,7 @@ background-color:#EDEEEE;
 align-items: center;
 height:320px;
 }
-.carousel-item ul li{
+.index-carousel-item ul li{
     font-size: 8px;
     margin:10px 40px 0px 20px;
 }
@@ -260,15 +260,19 @@ height:320px;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    margin: 10px;
+    margin:auto;
+    margin-top: 10px;
+    width:90vw;
+    
 }
 .research-items h1{
-    font-size: 14px;
+    font-size: 12px;
     padding: 2px;
 }
 .research-items p{
     display: block;
-    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
     /* width: 95%; */
     font-size: 10px;
     border: 1px solid green;
@@ -276,19 +280,39 @@ height:320px;
     text-align: start;
   
 }
-.carousel{
-    margin-left: 10px;
-    /* padding: 10px; */
+.width_25{
+
 }
-.carousel .carousel-inner .carousel-item{
+
+.width_25,.research-carousel, .research-carousel-item{
+    /* border:1px solid blue; */
+    width:300px ;
+    /* height: 150px !important; */
+}
+.width_25 .research-carousel .research-carousel-item img{
+    height: 130px;
+    width: 300px;    
+}
+.research-flex-space-between{
+    display: flex;
+    justify-content: space-around;
+    border:1px solid blue;
+    width: 90vw;
+    margin: auto;
     
 }
-.width_25,.carousel-inner, .carousel-item{
-    /* border:1px solid blue; */
-    width:400px !important;
-    height: 250px !important;
+.container-information{
+    border:1px solid green;
+    margin: 25px;
+    
+    width: 60%;
 }
-.carousel .carousel-inner .carousel-item img{
-    height: 250px;
+.container-information h5{
+    font-size: 12px;
+    color: #bb0c20;
+font-weight: bold;
+}
+.container-information .info-description p{
+    font-size: 8px;
 }
 /* CSS FOR PUBLICATION PAGE  */
