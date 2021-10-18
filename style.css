@@ -255,7 +255,7 @@ body {
   width: 85vw;
 }
 .research-items h1 {
-  font-size: 10px;
+  font-size: 12px;
   padding: 2px;
 }
 .research-items p {
@@ -268,19 +268,17 @@ body {
   /* margin-top:20px; */
   text-align: start;
 }
-.width_25 {
-}
 
 .width_25,
 .research-carousel,
 .research-carousel-item {
   /* border:1px solid blue; */
-  width: 300px;
+  width: 200px;
   height: 130px;
 }
 .width_25 .research-carousel .research-carousel-item img {
   height: 130px;
-  width: 300px;
+  width: 200px;
 }
 .research-flex-space-between {
   display: flex;
@@ -297,11 +295,13 @@ body {
 }
 .container-information h5 {
   font-size: 10px;
+  padding: 2px;
   color: #bb0c20;
   font-weight: bold;
 }
 .container-information .info-description p {
   font-size: 8px;
+  padding:1px;
 }
 /* CSS FOR PUBLICATION PAGE  */
 
