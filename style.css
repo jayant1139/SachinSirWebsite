@@ -48,11 +48,12 @@ body {
 .header-title .header-title-item h1 {
   font-size: 12px;
   font-weight: 600;
-  /* padding: 1px; */
+  padding: 2px;
   /* background-color: #2980B9; */
 }
 .header-title .header-title-item h2 {
   font-size: 8px;
+  padding: 1px;
   color: grey;
 }
 /* h1,h2{
