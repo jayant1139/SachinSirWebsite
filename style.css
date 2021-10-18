@@ -251,10 +251,10 @@ body {
   align-items: center;
   margin: auto;
   margin-top: 10px;
-  width: 90vw;
+  width: 85vw;
 }
 .research-items h1 {
-  font-size: 12px;
+  font-size: 10px;
   padding: 2px;
 }
 .research-items p {
@@ -262,7 +262,7 @@ body {
   margin-top: 5px;
   margin-bottom: 0px;
   /* width: 95%; */
-  font-size: 10px;
+  font-size: 8px;
   border: 1px solid green;
   /* margin-top:20px; */
   text-align: start;
@@ -275,7 +275,7 @@ body {
 .research-carousel-item {
   /* border:1px solid blue; */
   width: 300px;
-  /* height: 150px !important; */
+  height: 130px;
 }
 .width_25 .research-carousel .research-carousel-item img {
   height: 130px;
@@ -285,7 +285,7 @@ body {
   display: flex;
   justify-content: space-around;
   border: 1px solid blue;
-  width: 90vw;
+  width: 85vw;
   margin: auto;
 }
 .container-information {
@@ -295,7 +295,7 @@ body {
   width: 60%;
 }
 .container-information h5 {
-  font-size: 12px;
+  font-size: 10px;
   color: #bb0c20;
   font-weight: bold;
 }
