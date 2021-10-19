@@ -7,6 +7,11 @@
         /* width: 120px; */
       
     }
+    #footer {
+        position:relative;
+       
+        /* background:#6cf; */
+      }
     .sec-1{
         height: 170px;
     }
@@ -156,6 +161,37 @@
   }
   .container-information .info-description p {
     font-size: 16px;
+  }
+  .last-talk{
+    border:1px solid blueviolet;
+    width:85vw;
+    display: flex;
+    align-items: center;
+   justify-content: center; 
+    flex-wrap: nowrap;
+    margin: auto;
+  }
+  
+  .last-talk .last-talk-item p{
+  font-size: 20px;  
+  /* margin-left: 40px; */
+  }
+  .last-talk .last-talk-item a{
+    /* padding: 7px; */
+   
+    
+    
+    
+  }
+  
+  .last-talk-item:nth-last-child(1){
+    
+    border-radius: 6px;
+    font-size: 16px;
+   
+  }
+  .last-talk-item:nth-last-child(1):hover{
+    background-color: #bb0c20bb;
   }
 
 }
