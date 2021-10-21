@@ -459,32 +459,65 @@ margin:5px;
 
 /* Teams stylesheet */
 .title {
-  width: 25vw;
-  text-align: center;
+  /* width: vw; */
+  /*  */
+  /* align-items: center; */
+  display:block;
+  padding: 2px;
   border: 1px solid brown;
+}
+.title p{
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+
 }
 .grp-leader {
   border: 2px solid black;
+  background-color:rgb(255, 255, 255);
+  border-radius: 3px;
   display: block;
-  width: 25vw;
+  width: 120px;
   text-align: center;
+  margin: 5px;
 }
 .grp-img {
   display: inline-block;
   border: 1px solid green;
   border-radius: 50%;
 }
+.grp-img img{
+  width: 80px;
+}
+
+.grp-leader .grp-details .grp-desc h6{
+  font-size: 8px;
+  margin: 1px;
+  /* border:1px solid green; */
+}
+.grp-leader .grp-details .grp-desc p{
+  font-size: 8px;
+  margin: 0px;
+}
 .grp-leader .grp-details .grp-desc a {
-  /* background-color: brown; */
+ 
   text-decoration: none;
 }
 .grp-space-btw {
   background-color: rgba(238, 232, 170, 0.349);
   display: flex;
-  justify-content: space-evenly;
+  /* flex-wrap:wrap; */
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  width: 90vw;
+  margin: auto;
+  /* justify-content: space-evenly; */
 }
+/* team stylesheet ends here */
 
-/* Publication stylesheets here  */
+/* Publication stylesheets starts here  */
 
 .header-title-item h2 {
   font-weight: normal;
@@ -618,7 +651,7 @@ margin:5px;
 }
 /* Publication stylesheets end here  */
 
-/* team stylesheet ends here */
+
 
 /* Contact stylesheets here */
 
