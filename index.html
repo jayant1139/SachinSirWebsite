@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
+
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
   <!-- CSS  Bootstrap 5-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-<!-- css for owl carousel -->
+  <!-- css for owl carousel -->
 
   <!-- Add the slick-theme.css if you want default styling -->
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -21,7 +21,7 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
   <!-- CSS -->
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
@@ -29,177 +29,195 @@
 </head>
 
 <body>
-  <div class="body-full">
-    <div id="header">
-  <header class="sec-1">
-    <div class="header-item-link">
-      <div class="logo-top"><img src="./images/iitrlogo.webp" alt=""></div>
+  <div class="wrap-between">
+    <div class="body-full">
+
+      <div id="header">
+        <header class="sec-1">
+          <div class="header-item-link">
+            <div class="logo-top"><img src="./images/iitrlogo.webp" alt=""></div>
 
 
-    </div>
-    <div class="header-title">
-      <div class="header-title-item">
-        <h1>Applied Plasmonics & Photonics Lab <span style="color:#bb0c20 ;">(APP-Lab)</span></h1>
+          </div>
+          <div class="header-title">
+            <div class="header-title-item">
+              <h1>Applied Plasmonics & Photonics Lab <span style="color:#bb0c20 ;">(APP-Lab)</span></h1>
+            </div>
+            <div class="header-title-item">
+              <h2>Department of Physics,
+                Indian Institute of Technology Roorkee, India</h2>
+            </div>
+          </div>
+
+        </header>
+
+
+        <div class="header-container">
+          <a href="./index.html" class="header-items">Home </a>
+          <a href="./research.html" class="header-items">Research Interests</a>
+          <a href="./publication.html" class="header-items">Publications</a>
+          <a href="./team.html" class="header-items">Team</a>
+          <a href="./gallery.html" class="header-items">Gallery</a>
+          <a href="./contact.html" class="header-items">Contact</a>
+        </div>
       </div>
-      <div class="header-title-item">
-        <h2>Department of Physics,
-          Indian Institute of Technology Roorkee, India</h2>
+
+      <div id="body" class="body-wrapper">
+        <div class="container-intro">
+
+          <h1>Group of Sachin Kumar Srivastava</h1>
+          <div class="flex-row-container">
+            <div class="flex-row-items"><img src="./images/grpicon.webp"></div>
+            <div class="flex-row-items">
+              <p>We are working on various aspects of nanophotonics and plasmonics and their applications, primarily on
+                sensors. These include, SPR, LSPR, EOT, SERS, SEF, ESPR-LSPR coupling phenomena and many more.
+                <span id="showmore">
+                  Highly motivated students with JRF/SRF/postdoc fellowships, willing to work on any of these topics are
+                  encouraged to contact and discuss their ideas. Projects for M.Sc., M.Tech. and B.Tech. students in the
+                  fields of optics and photonics are also available.
+              </p>
+              </span>
+              <a href="#" onclick="show()" id="changetext">Read More</a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- News and Event Section -->
+
+        <div class="news-event-head" style="text-align: center;">News & Events</div>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner index-carousel">
+            <div class="carousel-item index-carousel-item active">
+              <div class="d-block w-60 m-auto">
+                <ul>
+                  <li>27 Aug. 2021: We have an opening for a JRF: Apply here</li>
+                  <li> 26 July 2021: Jhuma and Swapnil join APP-Lab for PhD. Welcome to the group
+                  </li>
+                  <li> 30 June 2021: Hridyansh, Rohit and Astha join APP-Lab for their one year academic projects.
+                    Welcome!!
+                  </li>
+                  <li>30 June 2021: Gagan, Ajinkya, Rohit and Sudhir successfully complete their BTP projects in APP
+                    Lab.
+                    All
+                    the best for your future assignments!! </li>
+                  <li>07 June 2021: Dr. Yadvendra Singh joins APP-Lab as a postdoc. Welcome!!</li>
+                  <li>15 Apr. 2021: Jhuma Pan joins APP-Lab as JRF. Welcome!!</li>
+                  <li> 02 Apr. 2021: Vivek gets postdoctoral fellowship in DTU, Denmark. We wish you all the best!!</li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="carousel-item index-carousel-item">
+              <div class="d-block w-60 m-auto">
+                <ul>
+                  <li>02 Mar. 2021: We have an opening for a JRF position. Details can be found here
+
+
+
+
+                  <li> 22 Jan 2021: APP-Labs gets financial sanction in collaboration with IIT Indore and Guwahati
+                    University
+                    for "Indo-South Korea Joint Network Center for Environmental Cyber Physical Systems".
+                  </li>
+                  <li> Registration for Optical Sensors course on NPTEL is Open. Registration Link</li>
+                  <li>26-27 Dec. 2020: SKS successfully co-organized OPTCT-2020, a Workshop on Optics & Photonics:
+                    Theory
+                    &
+                    Computational Techniques.</li>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="carousel-item index-carousel-item">
+              <div class="d-block w-60  m-auto">
+                <ul>
+                  <li>
+                    14 - 18 Dec. 2020: SKS successfully co-organized AICTE approved QIP short -term course on
+                    "Spectroscopy
+                    and Characterization of New Generation Materials"
+                  </li>
+                  <li>24 Nov. 2020: Dr. Vivek Semwal joined as Institute Postdoc -Welcome Vivek!!</li>
+                  <li>11 Nov. 2020: Tejasva Soni joins App-Lab for Photonic Sensors Project. - Welcome!!</li>
+                  <li>03 Nov. 2020: SKS wins SERB-Startup Research grant</li>
+                  <li>01 October 2020: Ravi Kiran Bandakavi joins App-Lab for Nanophotonic Sensors Project. Welcome
+                    Ravi!!
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="carousel-item index-carousel-item">
+              <div class="d-block  w-60 m-auto">
+                <ul>
+                  <li>
+                    02 Sep. 2020: Gagan singh saini, Ajinkya gore, Rohit Jha and Sudhir Balakrishnan join us for BTP
+                    project.
+                    Welcome all!!
+
+                  </li>
+                  <li>19 Aug. 2020: Arti Yadav joins APP- Lab for a PhD. Welcome Arti.</li>
+                  <li>08 Aug. 2020: SKS received research funding from MHRD-STARS.</li>
+                  <li>26 Jun 2020: SKS received unspent balance of INSPIRE Faculty Grant from CSIR-CSIO.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- carousel end here -->
+        <div class="last-element-page">We will be hiring soon for <a href="https://www.indokoreajnc.in/">Indo-South
+            Korea
+            Joint Network Centre for Environemntal Cyber Physical Systems</a>
+        </div>
+
       </div>
     </div>
+    <!-- footer starts here -->
+    <div id="footer">
+      <footer class="footer-part">
 
-  </header>
-  
-  
-  <div class="header-container">
-    <a href="./index.html" class="header-items">Home </a>
-    <a href="./research.html" class="header-items">Research Interests</a>
-    <a href="./publication.html" class="header-items">Publications</a>
-    <a href="./team.html" class="header-items">Team</a>
-    <a href="./gallery.html" class="header-items">Gallery</a>
-    <a href="./contact.html" class="header-items">Contact</a>
+        <div class="flex-container-footer">
+          <div class="flex-footer-items">
+            <p>Research Funding</p>
+          </div>
+          <div class="flex-footer-items">
+            <div class="funders-container">
+              <img src="./images/iitrlogopng.png" alt="">
+              <img src="./images/inspire.png" alt="">
+              <img src="./images/nserb.png" alt="">
+              <img src="./images/stars.png" alt="">
+              <img src="./images/Dst.png" alt="">
+            </div>
+          </div>
+          <div class="flex-footer-items">
+            <h6>We thank you for supporting our research !!</h6>
+          </div>
+        </div>
+      </footer>
+    </div>
   </div>
-</div>
-  
-<div id="body" class="body-wrapper">
-<div class="container-intro">
-
-    <h1>Group of Sachin Kumar Srivastava</h1>
-    <div class="flex-row-container">
-      <div class="flex-row-items"><img src="./images/grpicon.webp"></div>
-      <div class="flex-row-items">
-        <p>We are working on various aspects of nanophotonics and plasmonics and their applications, primarily on
-          sensors. These include, SPR, LSPR, EOT, SERS, SEF, ESPR-LSPR coupling phenomena and many more.
-          <span id="showmore">
-            Highly motivated students with JRF/SRF/postdoc fellowships, willing to work on any of these topics are
-            encouraged to contact and discuss their ideas. Projects for M.Sc., M.Tech. and B.Tech. students in the
-            fields of optics and photonics are also available.
-        </p>
-        </span>
-        <a href="#" onclick="show()" id="changetext">Read More</a>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- News and Event Section -->
-
-  <div class="news-event-head" style="text-align: center;">News & Events</div>
-
-  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    </div>
-    <div class="carousel-inner index-carousel">
-      <div class="carousel-item index-carousel-item active">
-        <div class="d-block w-60 m-auto">
-          <ul>
-            <li>27 Aug. 2021: We have an opening for a JRF: Apply here</li>
-            <li> 26 July 2021: Jhuma and Swapnil join APP-Lab for PhD. Welcome to the group
-            </li>
-            <li> 30 June 2021: Hridyansh, Rohit and Astha join APP-Lab for their one year academic projects. Welcome!!
-            </li>
-            <li>30 June 2021: Gagan, Ajinkya, Rohit and Sudhir successfully complete their BTP projects in APP Lab. All
-              the best for your future assignments!! </li>
-            <li>07 June 2021: Dr. Yadvendra Singh joins APP-Lab as a postdoc. Welcome!!</li>
-            <li>15 Apr. 2021: Jhuma Pan joins APP-Lab as JRF. Welcome!!</li>
-            <li> 02 Apr. 2021: Vivek gets postdoctoral fellowship in DTU, Denmark. We wish you all the best!!</li>
-
-          </ul>
-        </div>
-      </div>
-      <div class="carousel-item index-carousel-item">
-        <div class="d-block w-60 m-auto">
-          <ul>
-            <li>02 Mar. 2021: We have an opening for a JRF position. Details can be found here
-
-
-
-
-            <li> 22 Jan 2021: APP-Labs gets financial sanction in collaboration with IIT Indore and Guwahati University
-              for "Indo-South Korea Joint Network Center for Environmental Cyber Physical Systems".
-            </li>
-            <li> Registration for Optical Sensors course on NPTEL is Open. Registration Link</li>
-            <li>26-27 Dec. 2020: SKS successfully co-organized OPTCT-2020, a Workshop on Optics & Photonics: Theory &
-              Computational Techniques.</li>
-            </li>
-
-          </ul>
-        </div>
-      </div>
-      <div class="carousel-item index-carousel-item">
-        <div class="d-block w-60  m-auto">
-          <ul>
-            <li>
-              14 - 18 Dec. 2020: SKS successfully co-organized AICTE approved QIP short -term course on "Spectroscopy
-              and Characterization of New Generation Materials"
-            </li>
-            <li>24 Nov. 2020: Dr. Vivek Semwal joined as Institute Postdoc -Welcome Vivek!!</li>
-            <li>11 Nov. 2020: Tejasva Soni joins App-Lab for Photonic Sensors Project. - Welcome!!</li>
-            <li>03 Nov. 2020: SKS wins SERB-Startup Research grant</li>
-            <li>01 October 2020: Ravi Kiran Bandakavi joins App-Lab for Nanophotonic Sensors Project. Welcome Ravi!!
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="carousel-item index-carousel-item">
-        <div class="d-block  w-60 m-auto">
-          <ul>
-            <li>
-              02 Sep. 2020: Gagan singh saini, Ajinkya gore, Rohit Jha and Sudhir Balakrishnan join us for BTP project.
-              Welcome all!!
-
-            </li>
-            <li>19 Aug. 2020: Arti Yadav joins APP- Lab for a PhD. Welcome Arti.</li>
-            <li>08 Aug. 2020: SKS received research funding from MHRD-STARS.</li>
-            <li>26 Jun 2020: SKS received unspent balance of INSPIRE Faculty Grant from CSIR-CSIO.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <!-- carousel end here -->
-  <div class="last-element-page">We will be hiring soon for <a href="https://www.indokoreajnc.in/">Indo-South Korea
-      Joint Network Centre for Environemntal Cyber Physical Systems</a>
-    </div>
-   
-    </div>
-  <!-- footer starts here -->
-<div id="footer">
-  <footer class="footer-part">
-
-    <div class="flex-container-footer">
-      <div class="flex-footer-items">
-        <p>Research Funding</p>
-      </div>
-      <div class="flex-footer-items">
-        <div class="funders-container">
-          <img src="./images/iitrlogopng.png" alt="">
-          <img src="./images/inspire.png" alt="">
-          <img src="./images/nserb.png" alt="">
-          <img src="./images/stars.png" alt="">
-          <img src="./images/Dst.png" alt="">
-        </div>
-      </div>
-      <div class="flex-footer-items">
-        <h6>We thank you for supporting our research !!</h6>
-      </div>
-    </div>
-  </footer>
-</div>
-</div>
   <!-- footer ends here  -->
 
 

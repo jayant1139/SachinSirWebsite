@@ -1,4 +1,15 @@
-
+@media screen and (max-width:767px) and (min-height:950px) {
+    .wrap-between{
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: normal;
+        align-content: normal;
+        /* background-color: #bb0c20; */
+      }
+}
 
 @media screen and (min-width:768px)  {
     .logo-top img{
